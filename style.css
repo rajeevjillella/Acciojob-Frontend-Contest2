@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.background-container {
+    background-image: url('./Assets/bgimage.jpg');
+    background-size: cover;
+
+    padding: 4rem;
+    margin: 2rem
+    
+}
+h1{
+    width: 424px;
+    color: #184655;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .4rem;
+    background-color: white;
+    border-radius: .4rem;
+    gap: 16px;
+
+}
+.div{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.search img{
+    width: 24px;
+    height: 24px;
+
+}
+.stext{
+
+}
+
+.herosection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.navigation-bar{
+
+    width: 100%;
+    height: 86px;
+    position: sticky;
+    top: 0%;
+    border-bottom: 1px solid rgb(231, 231, 231);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 230px;
+    height: 66px;
+}
+
+.rightside{
+    display: flex;
+    align-items: center;
+}
+
+.dp{
+    display: flex;
+}
+
+.ai{
+    align-items: center;
+}
+
+.imwidth{
+    width: 16px;
+    height: 16px;
+}
+
+.rightside img{
+    width: 16px;
+    height: 16px;
+}
+
+.rightside .archieves{
+
+    
+    gap: 12px;
+    padding: .5rem;
+    font-size: 16px;
+}
+
+.rightside{
+    gap: 16px;
+}
+
+.store{
+    gap: 12px;
+    padding: .5rem;
+    font-size: 16px;
+}
+.but{
+    width: 120px;
+    padding: .5rem;
+    background-color: #184655;
+    color: white;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Latestpost{
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    margin: 2rem
+}
+
+.second{
+    background-color: #F9FDF3;
+    border: 1px solid black ;
+    border-radius: 2rem;
+}
+
